@@ -1,0 +1,30 @@
+.idea/
+.dynamodb/
+.scannerwork/
+.vscode/
+!./.vscode/settings.json
+
+# golang output binary directory
+bin
+node_modules/
+.DS_Store
+
+# golang vendor (dependencies) directory
+vendor
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# for drone
+secrets.txt
+/.env
