@@ -1,18 +1,7 @@
 # Redis Vector Search with MNIST Database in Go
 
 This repository demonstrates how to use Redis for vector similarity search on the [MNIST dataset](https://yann.lecun.com/exdb/mnist/) ([csv can be found here](https://git-disl.github.io/GTDLBench/datasets/mnist_datasets/)), leveraging Redis' RediSearch and RedisJSON modules with a Go implementation. The project achieves 96% accuracy, correctly predicting 9691 out of 10000 test images, with an efficient average search duration of 29 ms, making Redis a powerful solution for high-dimensional data search.
-
-## Features
-- Redis vector search on image embeddings from the MNIST dataset.
-- Uses Redis' `RediSearch` for efficient similarity search.
-- Demonstrates integration with Go using the `redis/v8` package.
-
-## Prerequisites
-
-- Docker
-- Go (version 1.16+)
-- Redis with `RediSearch` and `RedisJSON` modules enabled
-
+ 
 ## Setup
 
 ### Step 1: Run Redis in Docker
