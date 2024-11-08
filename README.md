@@ -105,5 +105,8 @@ Redis Vector Search Max Duration = 99ms
 Redis Vector Search Average Duration = 29ms
 ```
 
+## References
+
+https://github.com/redis-stack
 
 
